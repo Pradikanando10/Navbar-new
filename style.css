@@ -32,3 +32,34 @@
   text-decoration: none;
   color: white;
 }
+
+.container nav ul li a:hover {
+  text-decoration: none;
+  color: lightgray;
+  transition: color 0.3s ease;
+}
+
+#heroes {
+  display: flex;
+}
+
+.hero {
+  width: 100%;
+  background-image: url("Among-trees.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+#heroes .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heroes .hero h2 {
+  color: white;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
